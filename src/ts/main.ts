@@ -24,4 +24,14 @@ import { CustomerMaps } from './models/customerMaps';
     country: "Sweden"
   }
 }
+const person:User = {
+  name: "Tube B",
+  location:{
+    lat: 59.334591,
+    lng:18.063240,
+    country: "Sweden"
+  }
+
+}
 customerMap.addMarker(myUser);
+customerMap.addMarker(person);
