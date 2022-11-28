@@ -1,11 +1,8 @@
 /// <reference types="@types/google.maps" />
 
-interface Mappable {
-  location:{
-    lat: number,
-    lng: number
-  }
-}
+import { Mappable } from './Mappable';
+
+
 
 
 export class CustomerMaps {

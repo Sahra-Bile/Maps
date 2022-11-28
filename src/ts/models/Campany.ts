@@ -1,6 +1,7 @@
 import { faker } from "@faker-js/faker";
+import { Mappable } from './Mappable';
 
-export class Campany{
+export class Campany implements Mappable{
   campnayName: string;
   catchphrase: string;
   location:{
